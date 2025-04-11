@@ -6,5 +6,7 @@ function acessar(){
     //verificação se os campos foram preenchidos
     if(!loginEmail || !loginSenha){
         alert("Favor, preencha todos os campos de acesso");
+    }else{
+        window.location.href = 'cadastro.html';
     }
 }
