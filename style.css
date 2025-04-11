@@ -1,0 +1,17 @@
+.login{
+    font-size: 1rem;
+    text-align: center;
+    width: 25%;
+    padding: 2rem;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.login_Email{
+    padding: 2rem;
+}
+.login_Senha{
+    padding: 2rem;
+}
+.login_Button{
+    padding: 2rem;
+}
