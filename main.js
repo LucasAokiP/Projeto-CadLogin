@@ -20,6 +20,10 @@ function salvarUser(){
 
     if(nomeUser){
         dadosLista.push(nomeUser);
-        console.log(dadosLista)
+        //console.log(dadosLista);
+        document.getElementById("nomeUser").value = ""; //limpa o label com o nome digitado
+    }
+    else{
+        alert("Usuario não preenchido!!");
     }
 }
