@@ -10,3 +10,16 @@ function acessar(){
         window.location.href = 'cadastro.html';
     }
 }
+
+//declara array para o projeto
+var dadosLista = [];
+
+//função de armazenamentos de nomes no array
+function salvarUser(){
+    let nomeUser = document.getElementById("nomeUser").value;
+
+    if(nomeUser){
+        dadosLista.push(nomeUser);
+        console.log(dadosLista)
+    }
+}
